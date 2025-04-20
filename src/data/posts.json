@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "title": "Välkommen till Nowassist",
+      "date": "2025-04-20",
+      "excerpt": "I denna första post berättar vi om hur Nowassist kommer förändra din vardag...",
+      "content": "Det här är hela innehållet i första inlägget. Här kan du skriva längre text, infoga listor, länkar och allt du vill dela med dig av."
+    },
+    {
+      "id": 2,
+      "title": "Tips: Automatisera med React",
+      "date": "2025-04-18",
+      "excerpt": "Lär dig hur du snabbt sätter upp komponenter och dataflöden med hooks.",
+      "content": "I det här inlägget går vi igenom useState, useEffect och custom hooks för att effektivisera ditt arbetsflöde."
+    }
+  ]

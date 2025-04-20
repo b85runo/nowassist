@@ -1,0 +1,54 @@
+/* Global reset och grundinställningar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Navbar (ServiceNow‑inspirerad) */
+.navbar {
+  background-color: #017CBB;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar__links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar__item { }
+.navbar__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar__link:hover {
+  color: #cde6f6;
+}
+
+/* Huvudinnehåll */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h1, h2 {
+  color: #017CBB;
+}
